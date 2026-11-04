@@ -1,8 +1,8 @@
 name: hxsy jobs
 
 on:
-  schedule:
-    - cron: '4,9,14 12 * * *' 
+#  schedule:
+#    - cron: '4,9,14 12 * * *' 
   workflow_dispatch:
 
 concurrency:
